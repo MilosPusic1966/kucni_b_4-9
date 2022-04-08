@@ -112,8 +112,9 @@ namespace kucni_b_4_9
             // prometToolStripMenuItem1
             // 
             this.prometToolStripMenuItem1.Name = "prometToolStripMenuItem1";
-            this.prometToolStripMenuItem1.Size = new System.Drawing.Size(113, 22);
+            this.prometToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.prometToolStripMenuItem1.Text = "Promet";
+            this.prometToolStripMenuItem1.Click += new System.EventHandler(this.prometToolStripMenuItem1_Click);
             // 
             // izvestajiToolStripMenuItem
             // 

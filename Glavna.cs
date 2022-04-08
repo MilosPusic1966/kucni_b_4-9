@@ -45,5 +45,11 @@ namespace kucni_b_4_9
             sifarnik novi = new sifarnik("firma");
             novi.Show();
         }
+
+        private void prometToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Promet promet_unos = new Promet();
+            promet_unos.Show();
+        }
     }
 }
